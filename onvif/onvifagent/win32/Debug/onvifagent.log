@@ -1,0 +1,225 @@
+﻿Build started 2017/5/6 12:09:05.
+     1>Project "D:\dev\rapidonvif\onvif\onvifagent\win32\onvifagent.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\gsoap\gsoap\runtime /I..\onvifgen\ /I..\include\ /I..\..\include /I..\..\..\3rdparty\civetweb\include /I"..\..\..\3rdparty\openssl-win\openssl-win32\include\\" /I..\..\..\3rdparty\protobuf\cmake\win32\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D WITH_OPENSSL /D WITH_DOM /D WITH_PURE_VIRTUAL /D WITH_NONAMESPACES /D USE_WEBSOCKET /D USE_IPV6 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /bigobj ..\..\..\3rdparty\civetweb\src\CivetServer.cpp ..\..\include\onvifcli.pb.cc ..\..\include\onvifclidevice.pb.cc ..\..\include\onvifclimedia.pb.cc ..\..\include\onvifcliptz.pb.cc ..\gsoap\gsoap\runtime\dom.cpp ..\gsoap\gsoap\runtime\duration.c ..\gsoap\gsoap\runtime\smdevp.c ..\gsoap\gsoap\runtime\stdsoap2.cpp ..\gsoap\gsoap\runtime\threads.c ..\gsoap\gsoap\runtime\wsaapi.c ..\gsoap\gsoap\runtime\wsseapi.cpp ..\onvifgen\soapC.cpp ..\onvifgen\soapCreatePullPointBindingProxy.cpp ..\onvifgen\soapCreatePullPointBindingService.cpp ..\onvifgen\soapDeviceBindingProxy.cpp ..\onvifgen\soapDeviceBindingService.cpp ..\onvifgen\soapDeviceIOBindingProxy.cpp ..\onvifgen\soapDeviceIOBindingService.cpp ..\onvifgen\soapDiscoveryLookupBindingProxy.cpp ..\onvifgen\soapDiscoveryLookupBindingService.cpp ..\onvifgen\soapDisplayBindingProxy.cpp ..\onvifgen\soapDisplayBindingService.cpp ..\onvifgen\soapEventBindingProxy.cpp ..\onvifgen\soapEventBindingService.cpp ..\onvifgen\soapImagingBindingProxy.cpp ..\onvifgen\soapImagingBindingService.cpp ..\onvifgen\soapMediaBindingProxy.cpp ..\onvifgen\soapMediaBindingService.cpp ..\onvifgen\soapNotificationConsumerBindingProxy.cpp ..\onvifgen\soapNotificationConsumerBindingService.cpp ..\onvifgen\soapNotificationProducerBindingProxy.cpp ..\onvifgen\soapNotificationProducerBindingService.cpp ..\onvifgen\soapPausableSubscriptionManagerBindingProxy.cpp ..\onvifgen\soapPausableSubscriptionManagerBindingService.cpp ..\onvifgen\soapPTZBindingProxy.cpp ..\onvifgen\soapPTZBindingService.cpp ..\onvifgen\soapPullPointBindingProxy.cpp ..\onvifgen\soapPullPointBindingService.cpp ..\onvifgen\soapPullPointSubscriptionBindingProxy.cpp ..\onvifgen\soapPullPointSubscriptionBindingService.cpp ..\onvifgen\soapReceiverBindingProxy.cpp ..\onvifgen\soapReceiverBindingService.cpp ..\onvifgen\soapRecordingBindingProxy.cpp ..\onvifgen\soapRecordingBindingService.cpp ..\onvifgen\soapRemoteDiscoveryBindingProxy.cpp ..\onvifgen\soapRemoteDiscoveryBindingService.cpp ..\onvifgen\soapReplayBindingProxy.cpp ..\onvifgen\soapReplayBindingService.cpp ..\onvifgen\soapSearchBindingProxy.cpp ..\onvifgen\soapSearchBindingService.cpp ..\onvifgen\soapSubscriptionManagerBindingProxy.cpp ..\onvifgen\soapSubscriptionManagerBindingService.cpp ..\src\onvifagent.cpp ..\src\webserver.cpp
+         webserver.cpp
+     1>d:\dev\rapidonvif\onvif\onvifagent\include\onvifclientdevice.hpp(227): warning C4101: 'str' : unreferenced local variable
+         onvifagent.cpp
+     1>d:\dev\rapidonvif\onvif\onvifagent\include\onvifclientdevice.hpp(227): warning C4101: 'str' : unreferenced local variable
+         soapSubscriptionManagerBindingService.cpp
+         soapSubscriptionManagerBindingProxy.cpp
+         soapSearchBindingService.cpp
+         soapSearchBindingProxy.cpp
+         soapReplayBindingService.cpp
+         soapReplayBindingProxy.cpp
+         soapRemoteDiscoveryBindingService.cpp
+         soapRemoteDiscoveryBindingProxy.cpp
+         soapRecordingBindingService.cpp
+         soapRecordingBindingProxy.cpp
+         soapReceiverBindingService.cpp
+         soapReceiverBindingProxy.cpp
+         soapPullPointSubscriptionBindingService.cpp
+         soapPullPointSubscriptionBindingProxy.cpp
+         soapPullPointBindingService.cpp
+         soapPullPointBindingProxy.cpp
+         soapPTZBindingService.cpp
+         soapPTZBindingProxy.cpp
+         Generating Code...
+         Compiling...
+         soapPausableSubscriptionManagerBindingService.cpp
+         soapPausableSubscriptionManagerBindingProxy.cpp
+         soapNotificationProducerBindingService.cpp
+         soapNotificationProducerBindingProxy.cpp
+         soapNotificationConsumerBindingService.cpp
+         soapNotificationConsumerBindingProxy.cpp
+         soapMediaBindingService.cpp
+         soapMediaBindingProxy.cpp
+         soapImagingBindingService.cpp
+         soapImagingBindingProxy.cpp
+         soapEventBindingService.cpp
+         soapEventBindingProxy.cpp
+         soapDisplayBindingService.cpp
+         soapDisplayBindingProxy.cpp
+         soapDiscoveryLookupBindingService.cpp
+         soapDiscoveryLookupBindingProxy.cpp
+         soapDeviceIOBindingService.cpp
+         soapDeviceIOBindingProxy.cpp
+         soapDeviceBindingService.cpp
+         soapDeviceBindingProxy.cpp
+         Generating Code...
+         Compiling...
+         soapCreatePullPointBindingService.cpp
+         soapCreatePullPointBindingProxy.cpp
+         soapC.cpp
+         wsseapi.cpp
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\wsseapi.cpp(1308): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\wsseapi.cpp(2408): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\wsseapi.cpp(2959): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         wsaapi.c
+         threads.c
+         stdsoap2.cpp
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\stdsoap2.cpp(828): warning C4244: 'return' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+         smdevp.c
+         duration.c
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(176): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\duration.c(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         dom.cpp
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(267): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(606): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\dev\rapidonvif\onvif\onvifagent\gsoap\gsoap\runtime\dom.cpp(625): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         onvifcliptz.pb.cc
+         onvifclimedia.pb.cc
+         onvifclidevice.pb.cc
+         onvifcli.pb.cc
+         CivetServer.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\gsoap\gsoap\runtime /I..\onvifgen\ /I..\include\ /I..\..\include /I..\..\..\3rdparty\civetweb\include /I"..\..\..\3rdparty\openssl-win\openssl-win32\include\\" /I..\..\..\3rdparty\protobuf\cmake\win32\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D WITH_OPENSSL /D WITH_DOM /D WITH_PURE_VIRTUAL /D WITH_NONAMESPACES /D USE_WEBSOCKET /D USE_IPV6 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /bigobj ..\..\..\3rdparty\civetweb\src\civetweb.c
+         civetweb.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\output\Debug\onvifagent.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\win32\Debug /LIBPATH:"..\..\..\3rdparty\openssl-win\openssl-win32\lib" /LIBPATH:..\..\..\3rdparty\protobuf\cmake\win32\lib libeay32.lib ssleay32.lib libprotobufd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\output\Debug\onvifagent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\output\Debug\onvifagent.lib" /MACHINE:X86 Debug\CivetServer.obj
+         Debug\civetweb.obj
+         Debug\onvifcli.pb.obj
+         Debug\onvifclidevice.pb.obj
+         Debug\onvifclimedia.pb.obj
+         Debug\onvifcliptz.pb.obj
+         Debug\dom.obj
+         Debug\duration.obj
+         Debug\smdevp.obj
+         Debug\stdsoap2.obj
+         Debug\threads.obj
+         Debug\wsaapi.obj
+         Debug\wsseapi.obj
+         Debug\soapC.obj
+         Debug\soapCreatePullPointBindingProxy.obj
+         Debug\soapCreatePullPointBindingService.obj
+         Debug\soapDeviceBindingProxy.obj
+         Debug\soapDeviceBindingService.obj
+         Debug\soapDeviceIOBindingProxy.obj
+         Debug\soapDeviceIOBindingService.obj
+         Debug\soapDiscoveryLookupBindingProxy.obj
+         Debug\soapDiscoveryLookupBindingService.obj
+         Debug\soapDisplayBindingProxy.obj
+         Debug\soapDisplayBindingService.obj
+         Debug\soapEventBindingProxy.obj
+         Debug\soapEventBindingService.obj
+         Debug\soapImagingBindingProxy.obj
+         Debug\soapImagingBindingService.obj
+         Debug\soapMediaBindingProxy.obj
+         Debug\soapMediaBindingService.obj
+         Debug\soapNotificationConsumerBindingProxy.obj
+         Debug\soapNotificationConsumerBindingService.obj
+         Debug\soapNotificationProducerBindingProxy.obj
+         Debug\soapNotificationProducerBindingService.obj
+         Debug\soapPausableSubscriptionManagerBindingProxy.obj
+         Debug\soapPausableSubscriptionManagerBindingService.obj
+         Debug\soapPTZBindingProxy.obj
+         Debug\soapPTZBindingService.obj
+         Debug\soapPullPointBindingProxy.obj
+         Debug\soapPullPointBindingService.obj
+         Debug\soapPullPointSubscriptionBindingProxy.obj
+         Debug\soapPullPointSubscriptionBindingService.obj
+         Debug\soapReceiverBindingProxy.obj
+         Debug\soapReceiverBindingService.obj
+         Debug\soapRecordingBindingProxy.obj
+         Debug\soapRecordingBindingService.obj
+         Debug\soapRemoteDiscoveryBindingProxy.obj
+         Debug\soapRemoteDiscoveryBindingService.obj
+         Debug\soapReplayBindingProxy.obj
+         Debug\soapReplayBindingService.obj
+         Debug\soapSearchBindingProxy.obj
+         Debug\soapSearchBindingService.obj
+         Debug\soapSubscriptionManagerBindingProxy.obj
+         Debug\soapSubscriptionManagerBindingService.obj
+         Debug\onvifagent.obj
+         Debug\webserver.obj
+     1>libprotobufd.lib(arena.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(arena.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(arenastring.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(arenastring.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(extension_set.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(extension_set.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(generated_message_util.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(generated_message_util.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(coded_stream.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(coded_stream.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(zero_copy_stream.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(zero_copy_stream.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(zero_copy_stream_impl_lite.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(zero_copy_stream_impl_lite.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(message_lite.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(message_lite.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(repeated_field.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(repeated_field.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(atomicops_internals_x86_msvc.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(atomicops_internals_x86_msvc.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(bytestream.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(bytestream.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(common.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(common.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(int128.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(int128.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(once.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(once.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(status.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(status.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(statusor.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(statusor.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(stringpiece.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(stringpiece.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(stringprintf.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(stringprintf.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(structurally_valid.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(structurally_valid.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(strutil.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(strutil.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(time.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(time.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(wire_format_lite.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(wire_format_lite.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(any.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(any.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(any.pb.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(any.pb.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(descriptor.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(descriptor.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(descriptor.pb.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(descriptor.pb.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(descriptor_database.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(descriptor_database.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(dynamic_message.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(dynamic_message.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(extension_set_heavy.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(extension_set_heavy.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(generated_message_reflection.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(generated_message_reflection.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(strtod.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(strtod.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(tokenizer.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(tokenizer.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(zero_copy_stream_impl.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(zero_copy_stream_impl.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(map_field.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(map_field.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(message.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(message.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(reflection_ops.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(reflection_ops.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(source_context.pb.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(source_context.pb.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(substitute.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(substitute.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(text_format.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(text_format.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(type.pb.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(type.pb.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(unknown_field_set.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(unknown_field_set.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(datapiece.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(datapiece.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(default_value_objectwriter.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(default_value_objectwriter.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(field_mask_utility.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(field_mask_utility.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(json_escaping.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(json_escaping.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(json_objectwriter.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(json_objectwriter.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(json_stream_parser.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(json_stream_parser.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(object_writer.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(object_writer.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(proto_writer.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(proto_writer.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(protostream_objectsource.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(protostream_objectsource.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(protostream_objectwriter.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(protostream_objectwriter.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(type_info.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(type_info.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(utility.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(utility.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(json_util.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(json_util.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(type_resolver_util.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(type_resolver_util.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(wire_format.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(wire_format.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+     1>libprotobufd.lib(wrappers.pb.cc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobufd.lib(wrappers.pb.cc.obj)' or at 'D:\dev\rapidonvif\onvif\output\Debug\vc120.pdb'; linking object as if no debug info
+         onvifagent.vcxproj -> D:\dev\rapidonvif\onvif\onvifagent\win32\..\..\output\Debug\onvifagent.exe
+     1>Done Building Project "D:\dev\rapidonvif\onvif\onvifagent\win32\onvifagent.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:52.49
